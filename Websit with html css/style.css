@@ -151,3 +151,15 @@ header h1{
 ----------------------trening Places
 */
 
+.trending{
+
+     display: grid;
+     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 30px; 
+    margin-bottom: 30px;
+}
+
+.trending picture img{
+    width: 100%;
+    border-radius: 10px;
+}
