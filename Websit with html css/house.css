@@ -18,5 +18,95 @@
 
 }
 .house-title i{
-    
+    color: #ff5361;
+    font-size: 14px;
+
+}
+.gallery{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 'first first . .''first first . .';
+    margin: 20px 0;
+}
+
+.gallery img{
+  width: 100%;
+   display: block;
+   border-radius: 10px;
+
+}
+.gallery-img-1{
+    grid-area: first;
+}
+.small-detalis h2{
+    font-weight: 500;
+}
+.small-detalis h4{
+    text-align: right;
+    font-size: 22px;
+}
+
+.line{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0 50px;
+
+}
+.check-form{
+    margin: 30px 0;
+   box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+   border-radius: 8px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   padding: 10px 50px;
+}
+
+.check-form label{
+    display: block;
+}
+
+.check-form section{
+    padding: 20px;
+}
+
+.check-form input{
+    background: transparent;
+    border: 0;
+    outline: none;
+}
+
+
+.check-form button{
+   background: #ff5361;
+   border: 0;
+   outline: none;
+   color: #fff;
+   padding: 18px;
+   width: 250px;
+   border-radius: 8px;
+   font-size: 16px;
+
+
+}
+.guest-field{
+    flex: 1;
+
+}
+.details-list{
+list-style: none;
+margin: 50px 0;
+}
+.details-list li{
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #555;
+}
+.details-list li span{
+    display: block;
 }
