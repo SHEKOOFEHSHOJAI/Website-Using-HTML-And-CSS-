@@ -533,3 +533,71 @@ header h1{
     text-decoration: none;
 
 }
+
+
+/* 
+pagination
+*/
+.pagination{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+.pagination img{
+    width: 15px;
+    margin: 10px 20px;
+}
+.right-arrow{
+    transform: rotate(180deg);
+}
+.pagination span{
+    margin: 10px 8px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.pagination .current{
+    background: #333;
+    color: #fff;
+}
+
+
+/* 
+
+----------------samll screen for pageTwo
+*/
+
+@media only screen and (max-width:700px){
+    
+.list-continer{
+    margin-top: 150px;
+}
+
+.left-col,.right-col,.house-img,.house-info{
+
+  flex-basis: 100%;
+
+}
+.left-col h1{
+    font-size: 22px;
+}
+.house-info h3{
+    font-size: 18px;
+}
+.house-info i{
+    font-size: 16px;
+}
+.pagination span{
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+}
