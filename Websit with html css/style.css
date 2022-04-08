@@ -480,3 +480,56 @@ header h1{
       font-size: 22px;
       margin: 4px 0;
 }
+.house-info i{
+    color: #ff5361;
+    font-size: 18px;
+    margin: 10px 1px;
+}
+.house-price{
+    text-align: right;
+}
+.house-price h4{
+    font-size: 20px;
+}
+
+.house-price h4 span{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* right col */
+.sidbar{
+    border: 1px solid #999;
+    padding: 20px 30px;
+    margin-top: 30px;
+}
+.sidbar h2{
+
+    font-weight: 500;
+}
+.sidbar h3{
+    font-weight: 500;
+    margin: 20px 0 10px;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    color: #555;
+    margin-bottom: -18px;
+}
+
+.filter p{
+   flex: 1;
+}
+.filter input{
+
+    margin: 15px;
+}
+.sidbar-links{
+    text-align: right;
+    margin: 20px 0;
+}
+.sidbar-links a{
+    text-decoration: none;
+
+}
